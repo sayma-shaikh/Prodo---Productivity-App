@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom Chip Style -->
+    <style name="MyChipStyle" parent="Widget.Material3.Chip.Filter">
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyMedium</item>
+        <!-- You might want to add other items for MyChipStyle here if needed -->
+    </style>
+
+    <!-- PomodoroTabButton style is now a sibling to MyChipStyle, not a child -->
+    <style name="PomodoroTabButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

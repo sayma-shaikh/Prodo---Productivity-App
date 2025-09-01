@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="seed">#E2C682</color>            <!-- your brand -->
+    <color name="md_theme_light_primary">#E2C682</color>
+    <color name="md_theme_light_onPrimary">#333333</color>
+    <color name="md_theme_light_background">#FFF6FA</color>
+    <color name="chip_bg">#FFEFF6</color>
+    <color name="chip_text">#7A6F75</color>
+
+    <color name="divider">#1F000000</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="purple_100">#E1BEE7</color>
+    <color name="purple_200">#CE93D8</color>
+    <color name="purple_400">#AB47BC</color>
+    <color name="purple_500">#9C27B0</color>
+
+    <color name="pomodoro_gray">#CCCCCC</color>
+    <color name="card_bg">#F5F5F5</color>
+
+    <color name="cute_purple_light">#EBD9FF</color>
+    <color name="light_purple_bg">#F7F0FF</color>
+    <color name="cute_red">#FF6B81</color>
+    <color name="cute_green">#42BA96</color>
+    <color name="purple_700" tools:ignore="DuplicateDefinition">#6A1B9A</color>
+    <color name="chip_selected_bg">#BA85FA</color>
+    <color name="chip_unselected_bg">#E1BEE7</color>
+    <color name="chip_border">#9C27B0</color>
+    <color name="textSecondary">#757575</color>
+    <color name="textPrimary">#3C3C3C</color>
+
+    <color name="pomodoro_red">#D95550</color>
+    <color name="pomodoro_red_dark">#B53E3A</color>
+
+    <color name="pomodoro_timer_container_bg">#BA85FA</color> <!-- Added this color -->
+
+</resources>

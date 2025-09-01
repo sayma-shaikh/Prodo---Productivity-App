@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_tasks"
+            android:title="Tasks"
+            android:icon="@drawable/tasks" />
+
+        <item
+            android:id="@+id/nav_calendar"
+            android:title="Calendar"
+            android:icon="@drawable/calendar" />
+
+        <item
+            android:id="@+id/nav_stats"
+            android:title="Stats"
+            android:icon="@drawable/stats" />
+
+        <item
+            android:id="@+id/nav_pomodoro"
+            android:title="Pomodoro"
+            android:icon="@drawable/pomodoro" />
+
+    </group>
+
+</menu>

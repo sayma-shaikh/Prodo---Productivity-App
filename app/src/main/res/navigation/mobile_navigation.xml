@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_tasks">
+
+    <fragment
+        android:id="@+id/nav_tasks"
+        android:name="com.example.prodo.ui.tasks.TasksFragment"
+        android:label="Tasks"
+        tools:layout="@layout/fragment_tasks" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.example.prodo.ui.calender.CalendarFragment"
+        android:label="Calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="com.example.prodo.ui.stats.StatsFragment"
+        android:label="Stats"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/nav_pomodoro"
+        android:name="com.example.prodo.ui.pomodoro.PomodoroFragment"
+        android:label="Pomodoro"
+        tools:layout="@layout/fragment_pomodoro" >
+        <action
+            android:id="@+id/action_pomodoroFragment_to_bottomSheetAddTaskFragment"
+            app:destination="@id/bottomSheetAddTaskFragment" />
+    </fragment>
+
+    <!-- ADDED: Destination for Manage Categories Fragment -->
+    <fragment
+        android:id="@+id/nav_manage_categories"
+        android:name="com.example.prodo.ui.categories.ManageCategoriesFragment"
+        android:label="Manage Categories"
+        tools:layout="@layout/fragment_manage_categories" />
+
+    <!-- ADDED: Destination for BottomSheetAddTaskFragment -->
+    <!-- Use <dialog> if your BottomSheetAddTaskFragment extends BottomSheetDialogFragment -->
+    <dialog
+        android:id="@+id/bottomSheetAddTaskFragment"
+        android:name="com.example.prodo.ui.tasks.AddTaskBottomSheet"
+        android:label="Add Task"
+        tools:layout="@layout/bottom_sheet_add_task" />
+
+</navigation>
+
