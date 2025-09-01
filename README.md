@@ -1,6 +1,7 @@
 # project:
   name: "📌 Prodo - Productivity App"
   tagline: "A simple Pomodoro-based productivity tracker with tasks and analytics."
+  demo: https://youtu.be/N4a_CJzeHn4?si=LQU5g2f7QlIfy2Wl
 
 ## description: |
   **Prodo** is a lightweight productivity app built around the **Pomodoro technique**.  
